@@ -11,9 +11,14 @@ can become a chore.  As I need to learn more coding, I started working on a Java
 
 <p>This app will be a carbon copy of the game rules, just organized where you can get around.  Will probably add some dice throw components, but may not take this version much further.  When this is app is done, then I'll do it more like the Java version I started, fully automated.
 
-<code>Android SDK</code>
-<code>React Native</code>
-<code>Expo development</code>
+## Update 06/12/2022
+<p>Had to restart my development and realized I had never written down the order of march.  Here it is.</p>
+
+<p>These are the technologies needed.  Android SDK is not needed.</p>
+
+<code>React Native</code><br>
+<code>Expo development</code><br>
+<code>EAS build</code><br>
 <ol>
 <li>You MUST have your Nodejs version at an LTS, currently 16.15.1. Get the Expo Android app (Sorry, I don't do IOS).</li>
 <li>Install expo-cli -- <code>npm install -g exp-cli</code></li>
@@ -27,7 +32,7 @@ can become a chore.  As I need to learn more coding, I started working on a Java
 <li>QR code will now change.  Read QR code and your Android app will download to your phone on the Expo App. This is your development process.  It works.</li>
 
 </ol>
-<code>EAS build</code>
+
 EAS will build the APK of your Android project.<br>
 <li>Install eas-cli -- <code>npm install -g eas-cli</code></li>
 <li>Ensure you are logged in with <code>eas whoami</code> - Log in using Expo credentials, if you aren't. Run all following commands from inside your app folder.</li>
