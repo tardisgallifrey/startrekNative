@@ -37,7 +37,7 @@ EAS will build the APK of your Android project.<br>
 <li>Install eas-cli -- <code>npm install -g eas-cli</code></li>
 <li>Ensure you are logged in with <code>eas whoami</code> - Log in using Expo credentials, if you aren't. Run all following commands from inside your app folder.</li>
 <li>Run -- <code>eas build:configure</code> and choose Android in the list of options presented.  An EAS.json file will be built in your app.</li>
-<li>Replace the <code>eas.json</code> file with the example found at -- https://docs.expo.dev/build-reference/apk/.</li>
+<li>Replace the <code>eas.json</code> contents with the example found at -- https://docs.expo.dev/build-reference/apk/.</li>
 <li>To save confusion before building, ensure you have GIT committed all changes before running build process.</li>
 <li>Run build command exactly -- <code>eas build -p android --profile preview</code></li>
 <li>Follow instructions during build process and you should have an APK file ready to download to your android.</li>
